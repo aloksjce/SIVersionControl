@@ -1,0 +1,90 @@
+{
+  "objectInfo" : {
+    "id" : "3DibLX8L7CwgD6xMu19Dyf",
+    "name" : "Check-1501",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "3ec00e20-b510-4a2b-be50-07372de4c0b3"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "hF3K1AnFJmBfb0KjyQF0mJ"
+      }, {
+        "name" : "version",
+        "value" : "4"
+      } ],
+      "additionalInfo" : {
+        "description" : "Sample Description",
+        "contentType" : "Binary",
+        "documentState" : "Error"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "0m7oAjBgRTtlBvrZCl3R6d",
+    "name" : "KFK_SRC",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100260B000000000003"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "28YgtMW3taWdppAtJ3HAI9",
+    "name" : "INcrrtlinux02",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "01002625000000000009"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "kf887lKWRqCgS1O6diFWqD",
+    "name" : "Tailf_file",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100260B000000000006"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
