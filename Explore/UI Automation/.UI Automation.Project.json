@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "caH2Cdm72e4j1JOrKPxKsX",
+    "name" : "UI Automation",
+    "type" : "Project",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Ran On 15-Jul-20",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
