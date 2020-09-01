@@ -1,0 +1,70 @@
+{
+  "objectInfo" : {
+    "id" : "0ClNvblX30Zk522j8Tk2CY",
+    "name" : "EventhubKafkaToEventhubKafka",
+    "type" : "SIDataflow",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "e87d0384-805f-4fec-b44b-5a47baf63fc2"
+      },
+      "contextAttributes" : [ {
+        "name" : "parentId",
+        "value" : "d1d3df5f-cf1c-4c9a-8e83-b9d871c5aec2"
+      }, {
+        "name" : "version",
+        "value" : "1"
+      } ],
+      "additionalInfo" : {
+        "description" : "EventhubKafkaToEventhubKafka",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "dat",
+  "objectRefs" : [ {
+    "id" : "9C8H271QWCgd3P60BfhiWb",
+    "name" : "ivlhdp986.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100FP2500000000000A"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "aC6S9mHPcHQhNrJtYVesEF",
+    "name" : "SIAutomation_EhKafka_r34",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0100FP0B000000000013"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
