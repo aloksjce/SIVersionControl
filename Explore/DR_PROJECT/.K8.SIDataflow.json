@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "0z1vvR4Qya8ep9TUqhW4gk",
-    "name" : "KafkaToKafkaFlow",
+    "id" : "6D2isTTPrqHcd91zPZ5Kcl",
+    "name" : "K8",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,7 +9,7 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "eabcbdd3-9076-4133-861f-238183516375"
+        "repoHandle" : "d9851824-4b51-4564-a55c-5b2782668df1"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
@@ -19,7 +19,7 @@
         "value" : "1"
       } ],
       "additionalInfo" : {
-        "description" : "Kafka to Kafka to flow",
+        "description" : null,
         "contentType" : "Binary",
         "documentState" : "COMPLETE"
       }
@@ -27,8 +27,8 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
-    "id" : "c1q1ZXOt6UNik2ceyEauAw",
-    "name" : "Kafka connection 2",
+    "id" : "54J8DxqpSoBcftxBKNMUAk",
+    "name" : "SIAutomation_Kafka_r35",
     "type" : "Connection",
     "metadata" : {
       "modelVersion" : {
@@ -36,7 +36,27 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "0102ML0B000000000008"
+        "repoHandle" : "0102ML0B00000000001Y"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0Vr5lvSTUYaklidze7J1mB",
+    "name" : "flat_file",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "0102ML0B00000000002H"
       },
       "contextAttributes" : null,
       "additionalInfo" : {
@@ -63,26 +83,6 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "5p74iO0xevCbbVqTiDxqIX",
-    "name" : "Kafka connection 1",
-    "type" : "Connection",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "0102ML0B000000000007"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
