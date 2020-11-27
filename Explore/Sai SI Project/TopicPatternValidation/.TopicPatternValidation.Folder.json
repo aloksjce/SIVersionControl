@@ -1,0 +1,22 @@
+{
+  "objectInfo" : {
+    "id" : "4ntqTt59RYCb0AOPIa4NMA",
+    "name" : "TopicPatternValidation",
+    "type" : "Folder",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : null,
+      "contextAttributes" : [ ],
+      "additionalInfo" : {
+        "description" : "Topic pattern validation test",
+        "contentType" : "Binary",
+        "documentState" : "COMPLETE"
+      }
+    }
+  },
+  "dataFileExtension" : "json",
+  "objectRefs" : [ ]
+}
