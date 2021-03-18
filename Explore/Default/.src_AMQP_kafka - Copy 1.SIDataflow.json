@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "aC149CEb2BAhXdhe73t3eZ",
-    "name" : "src_kafka_tgt_kafka",
+    "id" : "cPv9htMoOwsbKsg268DUUP",
+    "name" : "src_AMQP_kafka - Copy 1",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,18 +9,18 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "3e00cd1b-8f44-4e65-bb75-f0cdbd36bc0b"
+        "repoHandle" : "0a86ddb2-ed11-400a-bc4e-6b8d1663684f"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "97efNeOvfCwdUgVtbb1g2G"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
         "description" : null,
-        "contentType" : "Binary",
+        "contentType" : null,
         "documentState" : "COMPLETE"
       }
     }
@@ -43,6 +43,26 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "0XEWqO0kuRGb42cfPKLuiZ",
+    "name" : "Amqp_ssl_2",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010NWA0B00000000000A"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"

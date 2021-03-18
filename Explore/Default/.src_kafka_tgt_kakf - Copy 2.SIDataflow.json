@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "aC149CEb2BAhXdhe73t3eZ",
-    "name" : "src_kafka_tgt_kafka",
+    "id" : "fg2Jlz0VJ4UfzccXLNUHYw",
+    "name" : "src_kafka_tgt_kakf - Copy 2",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,18 +9,18 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "3e00cd1b-8f44-4e65-bb75-f0cdbd36bc0b"
+        "repoHandle" : "b9eda0f8-eedb-4ead-8abc-689f42dfbe63"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "97efNeOvfCwdUgVtbb1g2G"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
         "description" : null,
-        "contentType" : "Binary",
+        "contentType" : null,
         "documentState" : "COMPLETE"
       }
     }

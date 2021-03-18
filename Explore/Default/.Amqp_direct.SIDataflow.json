@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "aC149CEb2BAhXdhe73t3eZ",
-    "name" : "src_kafka_tgt_kafka",
+    "id" : "bdk614cj96reJYcVpzvVca",
+    "name" : "Amqp_direct",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "3e00cd1b-8f44-4e65-bb75-f0cdbd36bc0b"
+        "repoHandle" : "3f4c5488-f4c7-460a-95a8-6f659de3c77f"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "97efNeOvfCwdUgVtbb1g2G"
       }, {
         "name" : "version",
-        "value" : "2"
+        "value" : "1"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -43,6 +43,26 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3MGImXA9346kIGJXcpaLII",
+    "name" : "Amqp_direct",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010NWA0B000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
       }
     },
     "path" : "/SYS"
