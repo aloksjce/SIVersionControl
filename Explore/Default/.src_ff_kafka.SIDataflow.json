@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "aQKtDBvqAUklcuwqOM6H6I",
-    "name" : "test",
+    "id" : "2XxrrlJvMoWes7z1EWlQ2q",
+    "name" : "src_ff_kafka",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,14 +9,14 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "dc7c1559-f036-4626-b126-bd78fe4d22a6"
+        "repoHandle" : "765f9a17-59c3-4266-b4e8-953cba9c3edd"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "ljlFSev3RsghsjlktoZJyi"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
@@ -27,6 +27,46 @@
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "3ROGfh7G6xnjN0VzyziakQ",
+    "name" : "FILE_STREAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012AH10B000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "ayav3bkAguSgmuXLvQ8j6f",
+    "name" : "pamhq1",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012AH125000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "eXezFeCe8uwlWFKROlAuU9",
     "name" : "KAFKA",
     "type" : "Connection",
@@ -43,26 +83,6 @@
         "description" : null,
         "contentType" : "JSON",
         "documentState" : "COMPLETE"
-      }
-    },
-    "path" : "/SYS"
-  }, {
-    "id" : "j7oBMugxnqzkc5q6ineZQl",
-    "name" : "pamhq2",
-    "type" : "AgentGroup",
-    "metadata" : {
-      "modelVersion" : {
-        "major" : 0,
-        "minor" : 0
-      },
-      "repoInfo" : {
-        "repoHandle" : "012AH125000000000003"
-      },
-      "contextAttributes" : null,
-      "additionalInfo" : {
-        "description" : null,
-        "contentType" : "JSON",
-        "documentState" : "VALID"
       }
     },
     "path" : "/SYS"

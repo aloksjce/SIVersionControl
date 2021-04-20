@@ -1,7 +1,7 @@
 {
   "objectInfo" : {
-    "id" : "aQKtDBvqAUklcuwqOM6H6I",
-    "name" : "test",
+    "id" : "906HkWfV4J7ebZRmUDeEEx",
+    "name" : "src_ff_kafka - Copy 1",
     "type" : "SIDataflow",
     "metadata" : {
       "modelVersion" : {
@@ -9,24 +9,44 @@
         "minor" : 0
       },
       "repoInfo" : {
-        "repoHandle" : "dc7c1559-f036-4626-b126-bd78fe4d22a6"
+        "repoHandle" : "5f7bf99f-81f3-42f8-9bc4-9c09e142b664"
       },
       "contextAttributes" : [ {
         "name" : "parentId",
         "value" : "ljlFSev3RsghsjlktoZJyi"
       }, {
         "name" : "version",
-        "value" : "1"
+        "value" : "2"
       } ],
       "additionalInfo" : {
         "description" : null,
-        "contentType" : "Binary",
+        "contentType" : null,
         "documentState" : "COMPLETE"
       }
     }
   },
   "dataFileExtension" : "dat",
   "objectRefs" : [ {
+    "id" : "3ROGfh7G6xnjN0VzyziakQ",
+    "name" : "FILE_STREAM",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "012AH10B000000000002"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
     "id" : "eXezFeCe8uwlWFKROlAuU9",
     "name" : "KAFKA",
     "type" : "Connection",
